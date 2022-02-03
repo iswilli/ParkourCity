@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: make blades spin
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":129.9288,"y":3.110785},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"Play","parameterTypes":["System.String"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%stateName":{"$content":"blade
+      1","$type":"System.String"}},"position":{"x":-16.0,"y":-144.0},"guid":"54289337-c1db-4226-abcb-de00f4465b01","$version":"A","$type":"Bolt.InvokeMember","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"blade
+      1","$type":"System.String"},"object":null},"position":{"x":-223.0,"y":-9.0},"guid":"8415273c-2da5-4012-84e7-0cd066c20446","$version":"A","$type":"Bolt.GetVariable","$id":"12"},{"chainable":false,"member":{"name":"Play","parameterTypes":["System.String"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%stateName":{"$content":"Blade
+      2","$type":"System.String"}},"position":{"x":254.0,"y":-141.0},"guid":"864f0cbc-81e6-4ab7-b5ae-47f356c4a736","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"blade
+      2","$type":"System.String"},"object":null},"position":{"x":-16.0,"y":0.0},"guid":"36e017f8-91e7-4a3d-87e4-01872a23d39f","$version":"A","$type":"Bolt.GetVariable","$id":"17"},{"coroutine":false,"defaultValues":{},"position":{"x":-298.0,"y":-146.0},"guid":"ad429df5-4d90-4a38-92d4-686701d97473","$version":"A","$type":"Bolt.FixedUpdate","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"25b3713f-c4c1-4395-8fe3-c9052631476a","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"4a11a6bd-8b9e-4a69-8fb2-5bc5a28152e1","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"65d6fc01-fd6c-4bf9-95c3-2627f750bf88","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"47b0f670-19aa-43d7-8c1d-676a9b07f7a3","$type":"Bolt.ValueConnection"},{"position":{"xMin":-339.0,"yMin":-237.0,"xMax":590.0,"yMax":242.0},"label":"For
+      helicopter blades","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"20596b1f-380d-4957-bd91-3ff7beec4723","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

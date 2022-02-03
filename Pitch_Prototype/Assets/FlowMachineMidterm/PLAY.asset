@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PLAY
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-29.56904,"y":10.53414},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-469.0,"y":-50.0},"guid":"d464bbc0-dbba-41c4-a6d1-3bb030a49326","$version":"A","$type":"Bolt.OnButtonClick","$id":"9"},{"chainable":false,"member":{"name":"LoadSceneAsync","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"Prototype","$type":"System.String"}},"position":{"x":36.0,"y":-59.0},"guid":"0e4e70e6-b1bb-4dfe-8a40-9af550fafaaf","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"defaultValues":{"duration":{"$content":2.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-251.0,"y":-72.0},"guid":"905cbd22-f5d8-4625-ac2e-5b8e44d4e26b","$version":"A","$type":"Bolt.Timer","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"start","guid":"6f89c53d-9ff3-4e25-8655-a876fa388aa8","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"completed","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"1a1bd358-c516-4eea-8f2e-2dacba114f23","$type":"Bolt.ControlConnection"},{"position":{"xMin":-509.0,"yMin":-138.0,"xMax":299.0,"yMax":179.0},"label":"Play
+      button for main menu to load next scene","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"e73451cb-c838-412b-b338-3f3a1d9cf239","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

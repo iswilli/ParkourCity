@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: FLASH
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":374.6361,"y":-63.81236},"zoom":0.75,"elements":[{"defaultValues":{},"position":{"x":147.0,"y":-42.0},"guid":"2bd94786-8d90-4aca-b2dc-5288b93fbeaa","$version":"A","$type":"Bolt.Branch","$id":"9"},{"numeric":true,"defaultValues":{"b":{"$content":5.0,"$type":"System.Single"}},"position":{"x":-33.0,"y":76.0},"guid":"f984e5c8-edb8-478e-9054-910af8d8aea6","$version":"A","$type":"Bolt.LessOrEqual","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Distance
+      from bob","$type":"System.String"}},"position":{"x":-280.0,"y":91.0},"guid":"cfe9a89d-87ba-4f44-87e4-9dfc6c157080","$version":"A","$type":"Bolt.GetVariable","$id":"13"},{"chainable":false,"member":{"name":"Play","parameterTypes":["System.String"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%stateName":{"$content":"FLASH","$type":"System.String"}},"position":{"x":363.0,"y":-39.0},"guid":"731a02c3-5d80-4476-9d86-8fcabd43fc4a","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"death
+      ball","$type":"System.String"},"object":null},"position":{"x":-410.0,"y":-54.0},"guid":"68e37cb8-1d3c-47c4-b9d2-b71d7be6a8e0","$version":"A","$type":"Bolt.GetVariable","$id":"18"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-182.0,"y":-58.0},"guid":"1395a8e2-96ea-466e-92fc-96f38de47774","$version":"A","$type":"Bolt.OnTriggerStay","$id":"20"},{"sourceUnit":{"$ref":"9"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"6b6c2166-14d1-4de7-b123-c3643b181025","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"376c592f-2a2a-4108-bf66-a706ca268e4c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"comparison","destinationUnit":{"$ref":"9"},"destinationKey":"condition","guid":"40501fc1-63dd-4e6c-8322-3674544bc5c6","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"a","guid":"966a5b73-b623-489e-b4cd-27ca6a054723","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"target","guid":"18ff45b8-74b5-41ed-9987-7d0fec4c9284","$type":"Bolt.ValueConnection"},{"position":{"xMin":-455.3333,"yMin":-142.0,"xMax":664.6667,"yMax":212.3334},"label":"Hmm
+      might be pointless again but this suggests that it also tirggers the flash
+      XD","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"cf7c184f-689a-4415-8ec8-457c19d137b8","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
